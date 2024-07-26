@@ -6,6 +6,29 @@ XPath 的 `text()` 函数用于选择 XML 文档中的文本节点，文本节�
 
 以下是关于 `text()` 函数的详细说明和一些示例：
 
+```xml
+<bookstore>
+    <book category="cooking">
+        <title lang="en">Everyday Italian</title>
+        <author>Giada De Laurentiis</author>
+        <year>2005</year>
+        <price>30.00</price>
+    </book>
+    <book category="children">
+        <title lang="en">Harry Potter</title>
+        <author>J K. Rowling</author>
+        <year>2005</year>
+        <price>29.99</price>
+    </book>
+    <book category="web">
+        <title lang="en">Learning XML</title>
+        <author>Erik T. Ray</author>
+        <year>2003</year>
+        <price>39.95</price>
+    </book>
+</bookstore>
+```
+
 ## 基本用法
 
 ### 选择元素的文本内容
