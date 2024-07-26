@@ -38,7 +38,7 @@ export default defineConfig({
 function nav()
 {
     return [
-        {text: "基础", link: "/guide/syntax/"},
+        {text: "基础", link: "/guide/syntax", activeMatch: '/guide/'},
     ];
 }
 
@@ -51,6 +51,12 @@ function sidebarGuide()
                 {text: "语法", link: "/guide/syntax"},
                 {text: "轴 Axes", link: "/guide/axes"},
                 {text: "操作", link: "/guide/operators"},
+            ]
+        },
+        {
+            text: "函数",
+            items: [
+                {text: "text() ", link: "/guide/functions/text"},
             ]
         }
     ];
