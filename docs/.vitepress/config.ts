@@ -57,6 +57,7 @@ function sidebarGuide()
             text: "函数",
             items: [
                 {text: "text() ", link: "/guide/functions/text"},
+                {text: "contains() ", link: "/guide/functions/contains"},
             ]
         }
     ];
